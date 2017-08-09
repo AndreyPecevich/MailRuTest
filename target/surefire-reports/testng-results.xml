@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="41014" started-at="2017-08-05T10:03:44Z" finished-at="2017-08-05T10:04:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="41014" started-at="2017-08-05T10:03:44Z" finished-at="2017-08-05T10:04:25Z">
+      <class name="edu.mail.registration.MailRegistrationTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:edu.mail.registration.MailRegistrationTest@ef14fe]" name="initialization" is-config="true" duration-ms="3382" started-at="2017-08-05T13:03:45Z" finished-at="2017-08-05T13:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:edu.mail.registration.MailRegistrationTest@ef14fe]" name="registration" duration-ms="18404" started-at="2017-08-05T13:03:48Z" description="registration run" data-provider="getRegistrationData" finished-at="2017-08-05T13:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Андрей]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Пецевич]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Июль]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Гродно]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Муж]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pecaisd1233245]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[@mail.ru]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[qwerty12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:edu.mail.registration.MailRegistrationTest@ef14fe]" name="initialization" is-config="true" duration-ms="1179" started-at="2017-08-05T13:04:06Z" finished-at="2017-08-05T13:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:edu.mail.registration.MailRegistrationTest@ef14fe]" name="registration" duration-ms="15882" started-at="2017-08-05T13:04:08Z" description="registration run" data-provider="getRegistrationData" finished-at="2017-08-05T13:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Анастасия]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Пецевич]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Апрель]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1994]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Гродно]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Жен]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pecasdn123435123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[@inbox.ru]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[qwerty12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="testQuit()[pri:0, instance:edu.mail.registration.MailRegistrationTest@ef14fe]" name="testQuit" is-config="true" duration-ms="1535" started-at="2017-08-05T13:04:24Z" finished-at="2017-08-05T13:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+      </class> <!-- edu.mail.registration.MailRegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

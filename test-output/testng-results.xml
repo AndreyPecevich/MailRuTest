@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14249" started-at="2017-08-09T07:29:01Z" finished-at="2017-08-09T07:29:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14249" started-at="2017-08-09T07:29:01Z" finished-at="2017-08-09T07:29:16Z">
+      <class name="edu.mail.test.MailRuTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:edu.mail.test.MailRuTest@1df84b8]" name="initialization" is-config="true" duration-ms="9026" started-at="2017-08-09T09:29:01Z" finished-at="2017-08-09T09:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:edu.mail.test.MailRuTest@1df84b8]" name="negativeLogin" duration-ms="4617" started-at="2017-08-09T09:29:10Z" description="login negative" finished-at="2017-08-09T09:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:edu.mail.test.MailRuTest@1df84b8]" name="afterMethod" is-config="true" duration-ms="28" started-at="2017-08-09T09:29:15Z" finished-at="2017-08-09T09:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:edu.mail.test.MailRuTest@1df84b8]" name="afterClass" is-config="true" duration-ms="542" started-at="2017-08-09T09:29:15Z" finished-at="2017-08-09T09:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- edu.mail.test.MailRuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

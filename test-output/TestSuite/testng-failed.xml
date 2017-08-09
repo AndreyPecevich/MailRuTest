@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="parameterX" value="true"/>
+  <test name="Test_suite">
+    <parameter name="parameterX" value="true"/>
+    <classes>
+      <class name="edu.mail.registration.MailRegistrationTest"/>
+    </classes>
+  </test> <!-- Test_suite -->
+  <test name="Test_suite(failed)" parallel="tests">
+    <parameter name="parameterX" value="true"/>
+    <classes>
+      <class name="edu.mail.registration.MailRegistrationTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="registration" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- edu.mail.registration.MailRegistrationTest -->
+    </classes>
+  </test> <!-- Test_suite(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

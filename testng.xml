@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MailRuTest" parallel="tests" thread-count="1" verbose="1">
+   <test name="MailRu_Test" preserve-order="true">
+		<classes>
+			<class name="edu.mail.test.MailRuTest"></class>
+		</classes>
+	</test>
+</suite>

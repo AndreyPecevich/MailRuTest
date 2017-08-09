@@ -1,0 +1,10 @@
+edu\mail\services\interfeces\ILoginPageService.class
+edu\mail\data\RegistrationData.class
+edu\mail\core\DriverManager.class
+edu\mail\module\MailRuModule.class
+edu\mail\services\RegistrationService.class
+edu\mail\pages\BasePage.class
+edu\mail\pages\LoginPage.class
+edu\mail\pages\RegistrationPage.class
+edu\mail\services\interfeces\IRegistrationService.class
+edu\mail\services\LoginPageService.class
