@@ -28,7 +28,6 @@ public class MailRuTest extends BaseTest {
     	loginPageService.fillDomainSelect("@mail.ru");
     	loginPageService.fillPasswordInput("787625653");
     	loginPageService.clickMailboxButton();
-    	Wait.getInstance().waitUntil(3000);
     	assertTrue(loginPageService.isErrorLabelShow(),"Failed the negativeLogin test!");
     }
     
